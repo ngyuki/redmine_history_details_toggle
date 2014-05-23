@@ -1,8 +1,10 @@
 # Redmine history details toggle plugin
 
+This plugin add checkbox to show/hide details of history on ticket.
+
 ## Install
 
-Move redmie plugin directory.
+Move redmine plugin directory.
 
 ```console
 $ cd /path/to/redmine/plugins/
@@ -25,3 +27,11 @@ Restart Redmine.
 ```console
 $ sudo service httpd restart
 ```
+
+## Snapshot
+
+When toggle is ON then show details.
+![01.png](https://raw.githubusercontent.com/ngyuki/redmine_history_details_toggle/misc/01.png)
+
+When toggle is OFF then hide details.
+![02.png](https://raw.githubusercontent.com/ngyuki/redmine_history_details_toggle/misc/02.png)
